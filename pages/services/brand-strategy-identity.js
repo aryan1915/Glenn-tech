@@ -34,7 +34,7 @@ export default function BrandStrategyIdentity() {
             <ScrollReveal>
               <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Service Detail</span>
               <h1 style={{ fontSize: '60px', margin: '16px 0 24px 0', fontWeight: 800 }} className="gt-text-gradient">
-                A brand people remember — and trust.
+                A brand people remember - and trust.
               </h1>
             </ScrollReveal>
           </div>
@@ -128,7 +128,7 @@ export default function BrandStrategyIdentity() {
               <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '12px' }}>The GlennTech Advantage</span>
               <h2 style={{ fontSize: '38px', fontWeight: 800, margin: '0 0 20px 0' }}>Why GlennTech for Brand Identity?</h2>
               <p style={{ fontSize: '17px', color: 'var(--text-gray-400)', lineHeight: '1.7', marginBottom: '40px' }}>
-                We connect brand to business. The identity we build is designed to win the specific clients and contracts you're going after — not just to look nice in a portfolio.
+                We connect brand to business. The identity we build is designed to win the specific clients and contracts you're going after - not just to look nice in a portfolio.
               </p>
               <Link href="/contact-us" className="gt-btn gt-btn-primary">
                 Start a Conversation <ArrowRight size={16} />

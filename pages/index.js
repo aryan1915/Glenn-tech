@@ -128,7 +128,7 @@ export default function Home() {
                   <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em' }}>SAM.gov Registered MBE / SBE</span>
                 </div>
                 <h1 className="gt-hero-title gt-text-gradient">
-                  Technology built to perform — and pass review.
+                  Technology built to perform - and pass review.
                 </h1>
                 <p style={{ fontSize: '19px', lineHeight: '1.6', color: 'var(--text-gray-400)', margin: '0 0 40px 0', maxWidth: '580px' }}>
                   We build fast, accessible, secure digital products with accessibility and compliance (ADA, HIPAA, Section 508) baked in from the first line of code.
@@ -227,7 +227,7 @@ export default function Home() {
           <div className="gt-grid-3">
             {services.map((service, idx) => (
               <ScrollReveal key={idx} delay={idx * 50}>
-                <div className="gt-card gt-card-hover" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+                <div className="gt-card gt-card-hover" style={{ display: 'flex', flexDirection: 'column' }}>
                   <div className="gt-card-icon" style={{ color: 'var(--primary-accent)' }}>
                     {service.icon}
                   </div>
@@ -260,7 +260,7 @@ export default function Home() {
           <div className="gt-grid-3">
             {industries.map((ind, idx) => (
               <ScrollReveal key={idx} delay={idx * 100}>
-                <div className="gt-card gt-card-glass gt-card-hover" style={{ height: '100%', display: 'flex', flexDirection: 'column', textAlign: 'center', alignItems: 'center' }}>
+                <div className="gt-card gt-card-glass gt-card-hover" style={{ display: 'flex', flexDirection: 'column', textAlign: 'center', alignItems: 'center' }}>
                   <div style={{ width: '72px', height: '72px', borderRadius: '50%', background: 'rgba(255,255,255,0.02)', border: '1px solid var(--border-color)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '24px' }}>
                     {ind.icon}
                   </div>

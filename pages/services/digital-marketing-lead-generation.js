@@ -23,7 +23,7 @@ export default function DigitalMarketingLeadGen() {
   return (
     <ModernLayout
       title="Digital Marketing & Lead Generation Services"
-      description="Performance marketing measured on pipeline, not vanity metrics — paid search, social, landing pages, and reporting you can read."
+      description="Performance marketing measured on pipeline, not vanity metrics - paid search, social, landing pages, and reporting you can read."
     >
       <div className="gt-glow" style={{ top: '20%', left: '5%' }} />
 
@@ -128,7 +128,7 @@ export default function DigitalMarketingLeadGen() {
               <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '12px' }}>The GlennTech Advantage</span>
               <h2 style={{ fontSize: '38px', fontWeight: 800, margin: '0 0 20px 0' }}>Why GlennTech for Digital Marketing?</h2>
               <p style={{ fontSize: '17px', color: 'var(--text-gray-400)', lineHeight: '1.7', marginBottom: '40px' }}>
-                We're not a black box. You get transparent reporting and honest calls — including telling you when a channel isn't worth the spend.
+                We're not a black box. You get transparent reporting and honest calls - including telling you when a channel isn't worth the spend.
               </p>
               <Link href="/contact-us" className="gt-btn gt-btn-primary">
                 Start a Conversation <ArrowRight size={16} />

@@ -11,16 +11,16 @@ import { blogPosts } from '../../data/blogData';
 function FaqAccordion({ faq }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div style={{ borderBottom: '1px solid var(--border-color)', padding: '16px 0' }}>
+    <div style={{ borderBottom: '1px solid var(--border-color)', padding: '20px 0' }}>
       <button
         onClick={() => setIsOpen(!isOpen)}
         style={{ width: '100%', background: 'none', border: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', textAlign: 'left', padding: 0 }}
       >
-        <span style={{ fontSize: '16px', fontWeight: '600', color: '#fff' }}>{faq.q}</span>
+        <span style={{ fontSize: '16px', fontWeight: '600', color: 'var(--text-white)' }}>{faq.q}</span>
         {isOpen ? <ChevronUp size={18} style={{ color: 'var(--primary-accent)' }} /> : <ChevronDown size={18} style={{ color: 'var(--primary-accent)' }} />}
       </button>
       {isOpen && (
-        <div style={{ marginTop: '12px', fontSize: '14.5px', color: 'var(--text-gray-400)', lineHeight: '1.6' }}>
+        <div style={{ marginTop: '12px', paddingBottom: '8px', fontSize: '14.5px', color: 'var(--text-gray-400)', lineHeight: '1.6' }}>
           {faq.a}
         </div>
       )}
@@ -109,7 +109,7 @@ export default function BlogPost() {
               <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}><Clock size={12} /> {post.readTime}</span>
             </div>
 
-            <h1 style={{ fontSize: '48px', lineHeight: '1.2', fontWeight: 800, margin: '0 0 24px 0', color: '#fff' }}>
+            <h1 style={{ fontSize: '48px', lineHeight: '1.2', fontWeight: 800, margin: '0 0 24px 0', color: 'var(--text-white)' }}>
               {post.title}
             </h1>
             
@@ -118,7 +118,7 @@ export default function BlogPost() {
                 GT
               </div>
               <div>
-                <span style={{ fontSize: '14px', color: '#fff', fontWeight: '600', display: 'block' }}>GlennTech Advisory Council</span>
+                <span style={{ fontSize: '14px', color: 'var(--text-white)', fontWeight: '600', display: 'block' }}>GlennTech Advisory Council</span>
                 <span style={{ fontSize: '12px', color: 'var(--text-gray-500)' }}>Compliance & Engineering Specialists</span>
               </div>
             </div>
@@ -141,7 +141,7 @@ export default function BlogPost() {
           {post.faqs && (
             <ScrollReveal delay={150}>
               <div style={{ marginTop: '64px', paddingTop: '40px', borderTop: '1px solid var(--border-color)' }}>
-                <h3 style={{ fontSize: '24px', fontWeight: '700', color: '#fff', marginBottom: '24px' }}>Frequently Asked Questions</h3>
+                <h3 style={{ fontSize: '24px', fontWeight: '700', color: 'var(--text-white)', marginBottom: '24px' }}>Frequently Asked Questions</h3>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                   {post.faqs.map((faq, idx) => (
                     <FaqAccordion key={idx} faq={faq} />
@@ -158,7 +158,7 @@ export default function BlogPost() {
         .article-body-content h2 {
           font-size: 24px !important;
           font-weight: 700 !important;
-          color: #fff !important;
+          color: var(--text-white) !important;
           margin: 40px 0 16px 0 !important;
         }
         .article-body-content p {

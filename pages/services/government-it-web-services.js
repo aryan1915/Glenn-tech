@@ -22,7 +22,7 @@ export default function GovernmentITWebServices() {
 
   return (
     <ModernLayout
-      title="Government IT & Web Services — SAM.gov Registered"
+      title="Government IT & Web Services - SAM.gov Registered"
       description="Certified, ADA and Section 508-compliant IT and web services for public-sector clients from a SAM.gov-registered MBE/SBE vendor."
     >
       <div className="gt-glow" style={{ top: '20%', right: '5%' }} />
@@ -53,7 +53,7 @@ export default function GovernmentITWebServices() {
                 <div>
                   <h3 style={{ fontSize: '22px', fontWeight: 700, margin: '0 0 12px 0', color: '#fff' }}>The Problem We Solve</h3>
                   <p style={{ fontSize: '16px', color: 'var(--text-gray-400)', lineHeight: '1.7', margin: 0 }}>
-                    Government work has its own rules — for accessibility, procurement, and accountability — and we know them. We deliver technology built to meet public-sector standards from the start, backed by the certifications that make contracting with us straightforward.
+                    Government work has its own rules - for accessibility, procurement, and accountability - and we know them. We deliver technology built to meet public-sector standards from the start, backed by the certifications that make contracting with us straightforward.
                   </p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function GovernmentITWebServices() {
               <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '12px' }}>The GlennTech Advantage</span>
               <h2 style={{ fontSize: '38px', fontWeight: 800, margin: '0 0 20px 0' }}>Why GlennTech for Public Sector IT?</h2>
               <p style={{ fontSize: '17px', color: 'var(--text-gray-400)', lineHeight: '1.7', marginBottom: '40px' }}>
-                We're a certified MBE, SBE, and SAM.gov-registered vendor — so we're not just capable, we're easy and safe to procure from while helping you hit small-business and diversity goals.
+                We're a certified MBE, SBE, and SAM.gov-registered vendor - so we're not just capable, we're easy and safe to procure from while helping you hit small-business and diversity goals.
               </p>
               <Link href="/contact-us" className="gt-btn gt-btn-primary">
                 Start a Conversation <ArrowRight size={16} />

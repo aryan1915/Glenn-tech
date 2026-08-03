@@ -58,7 +58,7 @@ export default function ServicesOverview() {
 
   return (
     <ModernLayout
-      title="Our Services — Custom Software, Automation & IT Consulting"
+      title="Our Services - Custom Software, Automation & IT Consulting"
       description="View custom technology services from GlennTech LLC, a certified MBE/SBE firm: web development, brand strategy, workflow automation, and compliant IT."
     >
       <div className="gt-glow" style={{ top: '15%', left: '10%' }} />
@@ -84,7 +84,7 @@ export default function ServicesOverview() {
           <div className="gt-grid-3">
             {servicesList.map((service, idx) => (
               <ScrollReveal key={idx} delay={idx * 50}>
-                <div className="gt-card gt-card-hover" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                <div className="gt-card gt-card-hover" style={{ display: 'flex', flexDirection: 'column' }}>
                   <div className="gt-card-icon" style={{ color: 'var(--primary-accent)' }}>
                     {service.icon}
                   </div>

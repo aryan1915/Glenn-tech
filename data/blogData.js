@@ -61,7 +61,7 @@ export const blogPosts = [
     summary: 'A HIPAA mistake in healthcare is a compliance event, not a bug. Review the technical requirements for securing patient data.',
     content: `
       <h2>The Crucial Role of HIPAA in Web Design</h2>
-      <p>Any website that collects Patient Health Information (PHI) — such as booking details, clinical intake forms, or medical symptoms — must satisfy the Health Insurance Portability and Accountability Act (HIPAA).</p>
+      <p>Any website that collects Patient Health Information (PHI) - such as booking details, clinical intake forms, or medical symptoms - must satisfy the Health Insurance Portability and Accountability Act (HIPAA).</p>
       
       <h2>Technical Guidelines for Compliance</h2>
       <ul>
@@ -137,7 +137,7 @@ export const blogPosts = [
   {
     slug: 'why-one-accountable-team-beats-five-agencies',
     title: 'Why one accountable team beats five separate agencies',
-    metaDesc: 'Why managing multiple separate agencies for brand, web, marketing, and IT hurts growth — and the single team alternative.',
+    metaDesc: 'Why managing multiple separate agencies for brand, web, marketing, and IT hurts growth - and the single team alternative.',
     date: 'June 20, 2026',
     readTime: '4 min read',
     summary: 'Stitching together different agencies leads to delays, communication gaps, and finger-pointing. Experience the single point of accountability.',

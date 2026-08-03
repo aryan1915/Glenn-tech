@@ -499,7 +499,7 @@ ${headerHtml}
       <span class="rd-hero-badge">Validation & Strategy</span>
       <h1 class="rd-hero-title">Product & Service Design</h1>
       <p class="rd-hero-desc">
-        We help businesses validate their most innovative ideas, create premium visual experiences, and design products that users love—with significantly reduced technological and market risk.
+        We help businesses validate their most innovative ideas, create premium visual experiences, and design products that users love-with significantly reduced technological and market risk.
       </p>
       <div class="rd-cta-group">
         <a href="#workshop" class="rd-btn rd-btn-primary">Explore Workshop</a>

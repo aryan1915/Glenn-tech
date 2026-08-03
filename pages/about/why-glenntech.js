@@ -15,7 +15,7 @@ export default function WhyGlennTech() {
     {
       num: '02',
       title: 'Compliance is our default',
-      desc: "ADA, HIPAA, and Section 508 aren't upsells — they're how we build.",
+      desc: "ADA, HIPAA, and Section 508 aren't upsells - they're how we build.",
       icon: <Shield size={28} style={{ color: 'var(--primary-accent)' }} />
     },
     {
@@ -27,14 +27,14 @@ export default function WhyGlennTech() {
     {
       num: '04',
       title: 'Range without the runaround',
-      desc: "Brand, web, marketing, automation, IT — handled by one team that owns the whole outcome.",
+      desc: "Brand, web, marketing, automation, IT - handled by one team that owns the whole outcome.",
       icon: <Grid size={28} style={{ color: 'var(--primary-accent)' }} />
     }
   ];
 
   return (
     <ModernLayout
-      title="Why GlennTech — Certified, Compliant, Accountable"
+      title="Why GlennTech - Certified, Compliant, Accountable"
       description="Why organizations choose GlennTech: certification that eases procurement, compliance built in, one accountable team, and senior attention."
     >
       <div className="gt-glow" style={{ top: '30%', right: '5%' }} />

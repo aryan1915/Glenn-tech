@@ -23,7 +23,7 @@ export default function CloudITConsulting() {
   return (
     <ModernLayout
       title="Cloud & IT Consulting Services"
-      description="Practical cloud and IT strategy, migration, and support for growing organizations — right-sized, secure, and vendor-neutral."
+      description="Practical cloud and IT strategy, migration, and support for growing organizations - right-sized, secure, and vendor-neutral."
     >
       <div className="gt-glow" style={{ top: '20%', right: '5%' }} />
 
@@ -53,7 +53,7 @@ export default function CloudITConsulting() {
                 <div>
                   <h3 style={{ fontSize: '22px', fontWeight: 700, margin: '0 0 12px 0', color: '#fff' }}>The Problem We Solve</h3>
                   <p style={{ fontSize: '16px', color: 'var(--text-gray-400)', lineHeight: '1.7', margin: 0 }}>
-                    Technology decisions get expensive fast when they're made without a plan. We give you practical, vendor-neutral guidance — from cloud migration to day-to-day IT — sized to your organization and your budget, not to what a reseller wants to sell.
+                    Technology decisions get expensive fast when they're made without a plan. We give you practical, vendor-neutral guidance - from cloud migration to day-to-day IT - sized to your organization and your budget, not to what a reseller wants to sell.
                   </p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function CloudITConsulting() {
               <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '12px' }}>The GlennTech Advantage</span>
               <h2 style={{ fontSize: '38px', fontWeight: 800, margin: '0 0 20px 0' }}>Why GlennTech for Cloud Consulting?</h2>
               <p style={{ fontSize: '17px', color: 'var(--text-gray-400)', lineHeight: '1.7', marginBottom: '40px' }}>
-                We're vendor-neutral and honest about trade-offs. Our advice is built around your goals — including the security and compliance realities of government and healthcare work — not a software vendor's commission.
+                We're vendor-neutral and honest about trade-offs. Our advice is built around your goals - including the security and compliance realities of government and healthcare work - not a software vendor's commission.
               </p>
               <Link href="/contact-us" className="gt-btn gt-btn-primary">
                 Start a Conversation <ArrowRight size={16} />

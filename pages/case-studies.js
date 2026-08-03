@@ -8,7 +8,7 @@ import { caseStudies } from '../data/caseStudiesData';
 export default function CaseStudies() {
   return (
     <ModernLayout
-      title="Case Studies — Client Uptime & Compliance Outcomes"
+      title="Case Studies - Client Uptime & Compliance Outcomes"
       description="Read results GlennTech has delivered for business, healthcare, and government clients. Real projects, certified metrics."
     >
       <div className="gt-glow" style={{ top: '20%', left: '10%' }} />

@@ -100,7 +100,7 @@ export default function DynamicCaseStudy() {
                 <p style={{ fontSize: '18px', color: '#fff', fontStyle: 'italic', lineHeight: '1.7', margin: '0 0 16px 0', position: 'relative', zIndex: 1 }}>
                   "{project.quote}"
                 </p>
-                <span style={{ fontSize: '14px', color: 'var(--text-gray-400)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em' }}>— Client Testimonial</span>
+                <span style={{ fontSize: '14px', color: 'var(--text-gray-400)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em' }}>- Client Testimonial</span>
               </div>
             </ScrollReveal>
           )}

@@ -18,7 +18,7 @@ export default function ContactUs() {
 
   return (
     <ModernLayout
-      title="Contact Us — Start a Conversation"
+      title="Contact Us - Start a Conversation"
       description="Connect with GlennTech LLC to discuss your custom web development, brand strategy, AI automation, or compliance IT projects."
     >
       <div className="gt-glow" style={{ top: '20%', left: '10%' }} />

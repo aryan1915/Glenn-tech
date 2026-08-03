@@ -15,8 +15,8 @@ export default function HealthcareIndustry() {
 
   return (
     <ModernLayout
-      title="Industries — Healthcare Technology"
-      description="HIPAA-compliant websites, portals, and automation for healthcare providers — secure, accessible, and patient-friendly."
+      title="Industries - Healthcare Technology"
+      description="HIPAA-compliant websites, portals, and automation for healthcare providers - secure, accessible, and patient-friendly."
     >
       <div className="gt-glow" style={{ top: '20%', right: '5%' }} />
 
@@ -33,7 +33,7 @@ export default function HealthcareIndustry() {
                 Protect patients. Pass audits. Keep it usable.
               </h1>
               <p style={{ fontSize: '18px', color: 'var(--text-gray-400)', lineHeight: '1.6', margin: '0 auto 40px auto', maxWidth: '720px' }}>
-                In healthcare, technology has to protect patient data without getting in the way of care. We build HIPAA-compliant websites, portals, forms, and automations that keep data secure and your organization compliant — while staying easy for patients to use.
+                In healthcare, technology has to protect patient data without getting in the way of care. We build HIPAA-compliant websites, portals, forms, and automations that keep data secure and your organization compliant - while staying easy for patients to use.
               </p>
               <Link href="/contact-us" className="gt-btn gt-btn-primary">
                 Start a Conversation <ArrowRight size={16} />

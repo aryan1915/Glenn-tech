@@ -15,8 +15,8 @@ export default function BusinessCommercial() {
 
   return (
     <ModernLayout
-      title="Industries — Business & Commercial"
-      description="Brand, web, marketing, and automation for growing businesses — one accountable team instead of five vendors."
+      title="Industries - Business & Commercial"
+      description="Brand, web, marketing, and automation for growing businesses - one accountable team instead of five vendors."
     >
       <div className="gt-glow" style={{ top: '20%', left: '5%' }} />
 
@@ -33,7 +33,7 @@ export default function BusinessCommercial() {
                 Scale on one team, not five vendors.
               </h1>
               <p style={{ fontSize: '18px', color: 'var(--text-gray-400)', lineHeight: '1.6', margin: '0 auto 40px auto', maxWidth: '720px' }}>
-                Growing businesses lose time and money stitching together separate agencies for brand, web, marketing, and IT. We bring them under one roof, so you move faster without cutting corners — and without managing a crowd of vendors who don't talk to each other.
+                Growing businesses lose time and money stitching together separate agencies for brand, web, marketing, and IT. We bring them under one roof, so you move faster without cutting corners - and without managing a crowd of vendors who don't talk to each other.
               </p>
               <Link href="/contact-us" className="gt-btn gt-btn-primary">
                 Start a Conversation <ArrowRight size={16} />

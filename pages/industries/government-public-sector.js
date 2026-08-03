@@ -15,7 +15,7 @@ export default function GovernmentPublicSector() {
 
   return (
     <ModernLayout
-      title="Industries — Government & Public Sector"
+      title="Industries - Government & Public Sector"
       description="Certified, ADA and Section 508-compliant technology for government agencies from a SAM.gov-registered MBE/SBE vendor."
     >
       <div className="gt-glow" style={{ top: '20%', left: '5%' }} />

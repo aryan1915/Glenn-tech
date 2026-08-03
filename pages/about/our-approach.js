@@ -15,7 +15,7 @@ export default function OurApproach() {
     {
       num: '02',
       title: 'One accountable team',
-      desc: "Strategy, design, development, and delivery under one roof — no finger-pointing between vendors when something breaks.",
+      desc: "Strategy, design, development, and delivery under one roof - no finger-pointing between vendors when something breaks.",
       icon: <Users size={24} style={{ color: 'var(--primary-accent)' }} />
     },
     {
@@ -27,14 +27,14 @@ export default function OurApproach() {
     {
       num: '04',
       title: 'Built to be maintained',
-      desc: "We hand over work your team can actually run, with documentation and clean handoffs — not a black box only we understand.",
+      desc: "We hand over work your team can actually run, with documentation and clean handoffs - not a black box only we understand.",
       icon: <Award size={24} style={{ color: 'var(--primary-accent)' }} />
     }
   ];
 
   return (
     <ModernLayout
-      title="Our Approach — How GlennTech Works"
+      title="Our Approach - How GlennTech Works"
       description="How GlennTech delivers: compliance-first, one accountable team, honest scoping, and work built to pass review."
     >
       <div className="gt-glow" style={{ top: '25%', left: '5%' }} />
@@ -45,7 +45,7 @@ export default function OurApproach() {
           <ScrollReveal>
             <span style={{ fontSize: '14px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Our Methodology</span>
             <h1 style={{ fontSize: '56px', margin: '16px 0 24px 0', fontWeight: 800 }} className="gt-text-gradient">
-              How we work — and why it's different.
+              How we work - and why it's different.
             </h1>
             <p style={{ fontSize: '18px', color: 'var(--text-gray-400)', lineHeight: '1.6', maxWidth: '720px', margin: '0 auto' }}>
               Good outcomes aren't luck. They come from a way of working. Here's ours.

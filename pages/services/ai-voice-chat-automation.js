@@ -23,7 +23,7 @@ export default function AIVoiceChatAutomation() {
   return (
     <ModernLayout
       title="AI Voice & Chat Automation Services"
-      description="AI voice agents and chatbots that answer instantly, qualify leads, and book appointments around the clock — integrated with your systems."
+      description="AI voice agents and chatbots that answer instantly, qualify leads, and book appointments around the clock - integrated with your systems."
     >
       <div className="gt-glow" style={{ top: '20%', right: '5%' }} />
 
@@ -34,7 +34,7 @@ export default function AIVoiceChatAutomation() {
             <ScrollReveal>
               <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Service Detail</span>
               <h1 style={{ fontSize: '60px', margin: '16px 0 24px 0', fontWeight: 800 }} className="gt-text-gradient">
-                Never miss another lead — day or night.
+                Never miss another lead - day or night.
               </h1>
             </ScrollReveal>
           </div>
@@ -53,7 +53,7 @@ export default function AIVoiceChatAutomation() {
                 <div>
                   <h3 style={{ fontSize: '22px', fontWeight: 700, margin: '0 0 12px 0', color: '#fff' }}>The Problem We Solve</h3>
                   <p style={{ fontSize: '16px', color: 'var(--text-gray-400)', lineHeight: '1.7', margin: 0 }}>
-                    Every unanswered call and ignored message is money walking out the door. Our AI voice and chat solutions respond instantly, answer routine questions, qualify prospects, and book appointments — 24/7, without adding headcount.
+                    Every unanswered call and ignored message is money walking out the door. Our AI voice and chat solutions respond instantly, answer routine questions, qualify prospects, and book appointments - 24/7, without adding headcount.
                   </p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function AIVoiceChatAutomation() {
               <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '12px' }}>The GlennTech Advantage</span>
               <h2 style={{ fontSize: '38px', fontWeight: 800, margin: '0 0 20px 0' }}>Why GlennTech for Conversational AI?</h2>
               <p style={{ fontSize: '17px', color: 'var(--text-gray-400)', lineHeight: '1.7', marginBottom: '40px' }}>
-                We deploy automation responsibly — with clear human handoffs and, for regulated clients, attention to privacy. Convenience should never come at the cost of compliance.
+                We deploy automation responsibly - with clear human handoffs and, for regulated clients, attention to privacy. Convenience should never come at the cost of compliance.
               </p>
               <Link href="/contact-us" className="gt-btn gt-btn-primary">
                 Start a Conversation <ArrowRight size={16} />

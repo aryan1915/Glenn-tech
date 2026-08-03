@@ -35,7 +35,7 @@ export default function Careers() {
 
   return (
     <ModernLayout
-      title="Careers — Join Our Compliance-First Team"
+      title="Careers - Join Our Compliance-First Team"
       description="Join a certified, compliance-first technology firm serving business, healthcare, and government. See open roles at GlennTech LLC."
     >
       <div className="gt-glow" style={{ top: '15%', left: '5%' }} />
@@ -46,7 +46,7 @@ export default function Careers() {
           <ScrollReveal>
             <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Join Our Team</span>
             <h1 style={{ fontSize: '56px', margin: '16px 0 24px 0', fontWeight: 800 }} className="gt-text-gradient">
-              Do work that has to be good — and gets to be.
+              Do work that has to be good - and gets to be.
             </h1>
             <p style={{ fontSize: '18px', color: 'var(--text-gray-400)', lineHeight: '1.6', maxWidth: '720px', margin: '0 auto' }}>
               We build technology for clients who can't afford shortcuts. If you take pride in work that's both excellent and accountable, you'll fit here.
@@ -115,7 +115,7 @@ export default function Careers() {
               <div style={{ background: 'rgba(0,229,255,0.02)', border: '1px solid rgba(0,229,255,0.1)', padding: '24px', borderRadius: '12px' }}>
                 <h4 style={{ fontSize: '17px', fontWeight: 700, color: '#fff', margin: '0 0 8px 0' }}>Don't see your role?</h4>
                 <p style={{ fontSize: '14.5px', color: 'var(--text-gray-400)', margin: 0 }}>
-                  Tell us what you do and why GlennTech — we're always glad to meet people who do great work.
+                  Tell us what you do and why GlennTech - we're always glad to meet people who do great work.
                 </p>
               </div>
             </ScrollReveal>

@@ -23,7 +23,7 @@ export default function WorkflowProcessAutomation() {
   return (
     <ModernLayout
       title="Workflow & Business Process Automation Services"
-      description="We map your processes and automate the repetitive work — integrations, automated workflows, and monitoring that free your team."
+      description="We map your processes and automate the repetitive work - integrations, automated workflows, and monitoring that free your team."
     >
       <div className="gt-glow" style={{ top: '20%', left: '5%' }} />
 
@@ -128,7 +128,7 @@ export default function WorkflowProcessAutomation() {
               <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '12px' }}>The GlennTech Advantage</span>
               <h2 style={{ fontSize: '38px', fontWeight: 800, margin: '0 0 20px 0' }}>Why GlennTech for Automation?</h2>
               <p style={{ fontSize: '17px', color: 'var(--text-gray-400)', lineHeight: '1.7', marginBottom: '40px' }}>
-                We automate around your actual tools and rules — including the compliance steps regulated teams can't skip — rather than forcing you onto rigid software.
+                We automate around your actual tools and rules - including the compliance steps regulated teams can't skip - rather than forcing you onto rigid software.
               </p>
               <Link href="/contact-us" className="gt-btn gt-btn-primary">
                 Start a Conversation <ArrowRight size={16} />

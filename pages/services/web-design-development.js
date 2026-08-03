@@ -16,15 +16,15 @@ export default function WebDesignDevelopment() {
 
   const steps = [
     { num: '01', title: 'Discover', desc: 'We learn your goals, audience, and the actions you need visitors to take.' },
-    { num: '02', title: 'Design', desc: 'We design the experience and interface around those actions — not around decoration.' },
+    { num: '02', title: 'Design', desc: 'We design the experience and interface around those actions - not around decoration.' },
     { num: '03', title: 'Build', desc: 'We develop a fast, accessible, standards-compliant site.' },
     { num: '04', title: 'Launch & support', desc: 'We ship, measure, and refine.' }
   ];
 
   return (
     <ModernLayout
-      title="Web Design & Development — ADA & 508 Compliant"
-      description="Custom, accessible, conversion-focused web design and development from a certified firm — ADA and Section 508 ready."
+      title="Web Design & Development - ADA & 508 Compliant"
+      description="Custom, accessible, conversion-focused web design and development from a certified firm - ADA and Section 508 ready."
     >
       <div className="gt-glow" style={{ top: '20%', left: '5%' }} />
 
@@ -35,7 +35,7 @@ export default function WebDesignDevelopment() {
             <ScrollReveal>
               <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Service Detail</span>
               <h1 style={{ fontSize: '60px', margin: '16px 0 24px 0', fontWeight: 800 }} className="gt-text-gradient">
-                Websites that perform — and pass review.
+                Websites that perform - and pass review.
               </h1>
             </ScrollReveal>
           </div>
@@ -129,7 +129,7 @@ export default function WebDesignDevelopment() {
               <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '12px' }}>The GlennTech Advantage</span>
               <h2 style={{ fontSize: '38px', fontWeight: 800, margin: '0 0 20px 0' }}>Why GlennTech for Web Development?</h2>
               <p style={{ fontSize: '17px', color: 'var(--text-gray-400)', lineHeight: '1.7', marginBottom: '40px' }}>
-                Most web shops treat accessibility as an add-on. We build it in — which matters doubly if you serve government or healthcare, where a non-compliant site is a liability, not just a missed visitor.
+                Most web shops treat accessibility as an add-on. We build it in - which matters doubly if you serve government or healthcare, where a non-compliant site is a liability, not just a missed visitor.
               </p>
               <Link href="/contact-us" className="gt-btn gt-btn-primary">
                 Start a Conversation <ArrowRight size={16} />

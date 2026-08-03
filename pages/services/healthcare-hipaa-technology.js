@@ -23,7 +23,7 @@ export default function HealthcareHIPAATechnology() {
   return (
     <ModernLayout
       title="Healthcare & HIPAA-Compliant Technology Services"
-      description="Secure, HIPAA-compliant websites, portals, forms, and automation for healthcare providers — privacy engineered in."
+      description="Secure, HIPAA-compliant websites, portals, forms, and automation for healthcare providers - privacy engineered in."
     >
       <div className="gt-glow" style={{ top: '20%', left: '5%' }} />
 
@@ -53,7 +53,7 @@ export default function HealthcareHIPAATechnology() {
                 <div>
                   <h3 style={{ fontSize: '22px', fontWeight: 700, margin: '0 0 12px 0', color: '#fff' }}>The Problem We Solve</h3>
                   <p style={{ fontSize: '16px', color: 'var(--text-gray-400)', lineHeight: '1.7', margin: 0 }}>
-                    In healthcare, a technology mistake isn't a bug — it's a compliance event. We build secure, HIPAA-compliant solutions for providers, from websites and patient portals to automation, with privacy engineered in from the start.
+                    In healthcare, a technology mistake isn't a bug - it's a compliance event. We build secure, HIPAA-compliant solutions for providers, from websites and patient portals to automation, with privacy engineered in from the start.
                   </p>
                 </div>
               </div>

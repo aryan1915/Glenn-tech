@@ -8,7 +8,7 @@ import { blogPosts } from '../data/blogData';
 export default function Blog() {
   return (
     <ModernLayout
-      title="Insights — Guides on IT, Compliance & Growth"
+      title="Insights - Guides on IT, Compliance & Growth"
       description="Practical guides on web accessibility, compliance, certification, and technology for business, healthcare, and government."
     >
       <div className="gt-glow" style={{ top: '15%', left: '10%' }} />
@@ -22,7 +22,7 @@ export default function Blog() {
               Plain-language guidance.
             </h1>
             <p style={{ fontSize: '18px', color: 'var(--text-gray-400)', lineHeight: '1.6', maxWidth: '720px', margin: '0 auto' }}>
-              No jargon, no fluff — practical answers on technology, compliance, and organizational growth.
+              No jargon, no fluff - practical answers on technology, compliance, and organizational growth.
             </p>
           </ScrollReveal>
         </div>

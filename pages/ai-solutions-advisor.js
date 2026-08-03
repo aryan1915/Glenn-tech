@@ -1452,7 +1452,7 @@ const bodyHtml = `<style id="wpr-usedcss">img:is([sizes=auto i],[sizes^="auto," 
   aria-label="AI Guide Chat"
 >
 
-  <!-- Trigger: position:absolute; bottom:100% — sits above panel top, slides with it -->
+  <!-- Trigger: position:absolute; bottom:100% - sits above panel top, slides with it -->
   <!-- Always small (.is-small); JS removes it temporarily for the intro animation -->
   <button
     id="eleks-chat-trigger"
@@ -1482,14 +1482,14 @@ const bodyHtml = `<style id="wpr-usedcss">img:is([sizes=auto i],[sizes^="auto," 
 
     <!-- Controls -->
     <div  class="eleks-chat-controls">
-      <!-- Minimize (collapse to bottom bar) — desktop only, shown by JS when active -->
+      <!-- Minimize (collapse to bottom bar) - desktop only, shown by JS when active -->
       <button id="eleks-chat-minimize" class="eleks-chat-btn-icon" aria-label="Minimize">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
           <path d="M14 7H9M9 7V2M9 7L15 1" stroke="currentColor"/>
           <path d="M2 9H7M7 9V14M7 9L1 15" stroke="currentColor"/>
         </svg>
       </button>
-      <!-- Expand — desktop only, shown by JS when collapsed -->
+      <!-- Expand - desktop only, shown by JS when collapsed -->
       <button id="eleks-chat-expand" class="eleks-chat-btn-icon" aria-label="Expand">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
           <path d="M10 1H15M15 1V6M15 1L9 7" stroke="currentColor"/>
@@ -1512,7 +1512,7 @@ const bodyHtml = `<style id="wpr-usedcss">img:is([sizes=auto i],[sizes^="auto," 
            has-fade-top / has-fade-bottom classes on the outer #eleks-chat-start. -->
       <div class="eleks-chat-start__scroll eleks-chat-content pl-big">
 
-        <h2 class="eleks-chat-start__title title-h2">Share your goal —<br />
+        <h2 class="eleks-chat-start__title title-h2">Share your goal -<br />
 let&#039;s see how we can help.</h2>
 
         <div class="eleks-chat-input-wrap">
@@ -1562,7 +1562,7 @@ let&#039;s see how we can help.</h2>
           <div id="eleks-chat-messages" class="eleks-chat-messages" role="log" aria-live="polite" aria-label="Chat messages"></div>
         </div>
 
-        <!-- Footer: input + disclaimer — sticky at bottom on mobile -->
+        <!-- Footer: input + disclaimer - sticky at bottom on mobile -->
         <div class="eleks-chat-active-footer">
 
           <!-- Active input: same structure as start screen -->

@@ -50,7 +50,7 @@ export default function AboutOverview() {
         <div className="gt-container">
           <div className="gt-grid-2">
             <ScrollReveal>
-              <div className="gt-card gt-card-glass" style={{ height: '100%' }}>
+              <div className="gt-card gt-card-glass">
                 <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(0, 229, 255, 0.05)', border: '1px solid rgba(0, 229, 255, 0.1)', marginBottom: '20px', color: 'var(--primary-accent)' }}>
                   <Target size={20} />
                 </div>
@@ -62,7 +62,7 @@ export default function AboutOverview() {
             </ScrollReveal>
 
             <ScrollReveal delay={150}>
-              <div className="gt-card gt-card-glass" style={{ height: '100%' }}>
+              <div className="gt-card gt-card-glass">
                 <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(0, 229, 255, 0.05)', border: '1px solid rgba(0, 229, 255, 0.1)', marginBottom: '20px', color: 'var(--primary-accent)' }}>
                   <Eye size={20} />
                 </div>
@@ -89,7 +89,7 @@ export default function AboutOverview() {
           <div className="gt-grid-3">
             {values.map((val, idx) => (
               <ScrollReveal key={idx} delay={idx * 100}>
-                <div className="gt-card" style={{ height: '100%' }}>
+                <div className="gt-card">
                   <div className="gt-card-icon">{val.icon}</div>
                   <h3 style={{ fontSize: '19px', fontWeight: 700, margin: '0 0 12px 0', color: '#fff' }}>{val.title}</h3>
                   <p style={{ fontSize: '14.5px', color: 'var(--text-gray-400)', lineHeight: '1.6', margin: 0 }}>{val.desc}</p>

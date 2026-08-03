@@ -2435,6 +2435,15 @@ textarea {
   color: var(--primary-accent);
 }
 
+@media (max-width: 1200px) and (min-width: 992px) {
+  .gt-nav-links {
+    gap: 16px !important;
+  }
+  .gt-nav-link {
+    font-size: 13.5px !important;
+  }
+}
+
 /* Navbar Dropdowns */
 .gt-nav-dropdown {
   position: absolute;

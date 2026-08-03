@@ -40,7 +40,7 @@ export default function Certifications() {
 
   return (
     <ModernLayout
-      title="Certifications & Capabilities — SAM.gov, SBE, MBE"
+      title="Certifications & Capabilities - SAM.gov, SBE, MBE"
       description="Verify GlennTech LLC's credentials and compliance capabilities: SAM.gov registered, MBE/SBE certified, and Section 508, HIPAA, and ADA ready."
     >
       <div className="gt-glow" style={{ top: '25%', left: '10%' }} />
