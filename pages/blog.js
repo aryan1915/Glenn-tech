@@ -34,7 +34,7 @@ export default function Blog() {
           <div className="gt-grid-3">
             {blogPosts.map((post, idx) => (
               <ScrollReveal key={idx} delay={idx * 100}>
-                <div className="gt-card gt-card-glass gt-card-hover" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                <div className="gt-card gt-card-glass gt-card-hover" style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ display: 'flex', gap: '16px', alignItems: 'center', marginBottom: '16px', fontSize: '13px', color: 'var(--text-gray-500)' }}>
                     <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}><Calendar size={12} /> {post.date}</span>
                     <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}><Clock size={12} /> {post.readTime}</span>

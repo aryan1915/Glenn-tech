@@ -64,16 +64,16 @@ export default function Certifications() {
       <section className="gt-section" style={{ padding: '40px 0 100px 0' }}>
         <div className="gt-container">
           <div className="gt-grid-3">
-            {certifications.map((cert, idx) => (
+             {certifications.map((cert, idx) => (
               <ScrollReveal key={idx} delay={idx * 80}>
-                <div className="gt-card gt-card-glass gt-card-hover" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+                <div className="gt-card gt-card-glass gt-card-hover" style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
                     <div style={{ width: '48px', height: '48px', borderRadius: '12px', background: 'rgba(0, 229, 255, 0.05)', border: '1px solid rgba(0, 229, 255, 0.1)', display: 'flex', alignItems: 'center', justifyCenter: 'center', justifyContent: 'center', color: 'var(--primary-accent)' }}>
                       <Shield size={20} />
                     </div>
                     <span style={{ fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', color: 'var(--primary-accent)', background: 'rgba(0,229,255,0.08)', padding: '4px 10px', borderRadius: '9999px', border: '1px solid rgba(0,229,255,0.15)' }}>{cert.status}</span>
                   </div>
-                  <h3 style={{ fontSize: '20px', fontWeight: 700, margin: '0 0 12px 0', color: '#fff' }}>{cert.title}</h3>
+                  <h3 style={{ fontSize: '20px', fontWeight: 700, margin: '0 0 12px 0', color: 'var(--text-white)' }}>{cert.title}</h3>
                   <p style={{ fontSize: '14.5px', color: 'var(--text-gray-400)', lineHeight: '1.6', margin: 0, flexGrow: 1 }}>{cert.desc}</p>
                 </div>
               </ScrollReveal>
@@ -108,14 +108,14 @@ export default function Certifications() {
             </ScrollReveal>
 
             <ScrollReveal delay={150}>
-              <div style={{ padding: '40px', background: 'rgba(13,13,13,0.5)', border: '1px solid var(--border-color)', borderRadius: '24px' }}>
-                <h3 style={{ fontSize: '22px', fontWeight: 700, margin: '0 0 16px 0', color: '#fff' }}>Contracting Vehicles</h3>
+              <div className="gt-card gt-card-glass" style={{ padding: '40px' }}>
+                <h3 style={{ fontSize: '22px', fontWeight: 700, margin: '0 0 16px 0', color: 'var(--text-white)' }}>Contracting Vehicles</h3>
                 <p style={{ fontSize: '14.5px', color: 'var(--text-gray-400)', lineHeight: '1.6', marginBottom: '24px' }}>
                   As an SBE/MBE vendor, we help prime contractors hit diversity-spend requirements under government tenders.
                 </p>
                 <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-                  <span style={{ fontSize: '13px', background: 'rgba(255,255,255,0.03)', border: '1px solid var(--border-color)', padding: '6px 14px', borderRadius: '6px', color: '#fff' }}>Entity ID: SAM.gov Active</span>
-                  <span style={{ fontSize: '13px', background: 'rgba(255,255,255,0.03)', border: '1px solid var(--border-color)', padding: '6px 14px', borderRadius: '6px', color: '#fff' }}>Structure: LLC (MBE / SBE)</span>
+                  <span style={{ fontSize: '13px', background: 'rgba(0, 229, 255, 0.04)', border: '1px solid var(--border-color)', padding: '6px 14px', borderRadius: '6px', color: 'var(--text-gray-200)' }}>Entity ID: SAM.gov Active</span>
+                  <span style={{ fontSize: '13px', background: 'rgba(0, 229, 255, 0.04)', border: '1px solid var(--border-color)', padding: '6px 14px', borderRadius: '6px', color: 'var(--text-gray-200)' }}>Structure: LLC (MBE / SBE)</span>
                 </div>
               </div>
             </ScrollReveal>

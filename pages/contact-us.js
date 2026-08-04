@@ -44,7 +44,7 @@ export default function ContactUs() {
                   </div>
                   <div>
                     <h4 style={{ margin: '0 0 4px 0', fontSize: '14px', textTransform: 'uppercase', color: 'var(--text-gray-500)', letterSpacing: '0.05em' }}>Email Us</h4>
-                    <a href="mailto:info@glenntech.com" style={{ fontSize: '16.5px', color: '#fff', textDecoration: 'none', fontWeight: '600' }}>info@glenntech.com</a>
+                    <a href="mailto:info@glenntech.com" style={{ fontSize: '16.5px', color: 'var(--primary-accent)', textDecoration: 'none', fontWeight: '600' }}>info@glenntech.com</a>
                   </div>
                 </div>
 
@@ -54,7 +54,7 @@ export default function ContactUs() {
                   </div>
                   <div>
                     <h4 style={{ margin: '0 0 4px 0', fontSize: '14px', textTransform: 'uppercase', color: 'var(--text-gray-500)', letterSpacing: '0.05em' }}>Call Advisory</h4>
-                    <span style={{ fontSize: '16.5px', color: '#fff', fontWeight: '600' }}>+1 (800) 555-0199</span>
+                    <span style={{ fontSize: '16.5px', color: 'var(--text-white)', fontWeight: '600' }}>+1 (800) 555-0199</span>
                   </div>
                 </div>
 
@@ -64,7 +64,7 @@ export default function ContactUs() {
                   </div>
                   <div>
                     <h4 style={{ margin: '0 0 4px 0', fontSize: '14px', textTransform: 'uppercase', color: 'var(--text-gray-500)', letterSpacing: '0.05em' }}>Headquarters</h4>
-                    <span style={{ fontSize: '16.5px', color: '#fff', fontWeight: '600' }}>New Jersey, USA</span>
+                    <span style={{ fontSize: '16.5px', color: 'var(--text-white)', fontWeight: '600' }}>New Jersey, USA</span>
                   </div>
                 </div>
               </div>
@@ -81,14 +81,14 @@ export default function ContactUs() {
             {/* Form Column */}
             <ScrollReveal delay={150}>
               <div className="gt-card gt-card-glass">
-                <h3 style={{ fontSize: '24px', fontWeight: 700, margin: '0 0 24px 0', color: '#fff' }}>Start your project</h3>
+                <h3 style={{ fontSize: '24px', fontWeight: 700, margin: '0 0 24px 0', color: 'var(--text-white)' }}>Start your project</h3>
                 
                 {submitted ? (
                   <div style={{ textAlign: 'center', padding: '40px 0' }}>
                     <div style={{ display: 'inline-flex', alignItems: 'center', justifyCenter: 'center', width: '56px', height: '56px', borderRadius: '50%', background: 'rgba(0,229,255,0.08)', color: 'var(--primary-accent)', marginBottom: '20px', justifyContent: 'center' }}>
                       <CheckCircle size={28} />
                     </div>
-                    <h4 style={{ fontSize: '20px', color: '#fff', margin: '0 0 8px 0' }}>Message Sent Successfully</h4>
+                    <h4 style={{ fontSize: '20px', color: 'var(--text-white)', margin: '0 0 8px 0' }}>Message Sent Successfully</h4>
                     <p style={{ fontSize: '14.5px', color: 'var(--text-gray-400)', margin: 0 }}>Thank you for reaching out. A GlennTech director will contact you within one business day.</p>
                   </div>
                 ) : (

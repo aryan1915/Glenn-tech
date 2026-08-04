@@ -34,7 +34,7 @@ export default function CaseStudies() {
           <div className="gt-grid-3">
             {caseStudies.map((project, idx) => (
               <ScrollReveal key={idx} delay={idx * 100}>
-                <div className="gt-card gt-card-glass gt-card-hover" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                <div className="gt-card gt-card-glass gt-card-hover" style={{ display: 'flex', flexDirection: 'column' }}>
                   <div style={{ display: 'flex', gap: '8px', alignItems: 'center', marginBottom: '16px' }}>
                     <Briefcase size={16} style={{ color: 'var(--primary-accent)' }} />
                     <span style={{ fontSize: '13px', color: 'var(--text-gray-400)', fontWeight: '500' }}>{project.sector}</span>

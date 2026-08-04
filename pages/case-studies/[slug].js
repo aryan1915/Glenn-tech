@@ -59,7 +59,7 @@ export default function DynamicCaseStudy() {
           {/* Challenge Card */}
           <ScrollReveal>
             <div className="gt-card gt-card-glass" style={{ marginBottom: '32px', borderLeft: '4px solid #ff5f56' }}>
-              <h3 style={{ fontSize: '20px', fontWeight: '700', color: '#fff', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <h3 style={{ fontSize: '20px', fontWeight: '700', color: 'var(--text-white)', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <HelpCircle size={20} style={{ color: '#ff5f56' }} /> The Challenge
               </h3>
               <p style={{ fontSize: '15.5px', color: 'var(--text-gray-400)', lineHeight: '1.7', margin: 0 }}>
@@ -71,7 +71,7 @@ export default function DynamicCaseStudy() {
           {/* What We Did Card */}
           <ScrollReveal delay={100}>
             <div className="gt-card gt-card-glass" style={{ marginBottom: '32px', borderLeft: '4px solid var(--primary-accent)' }}>
-              <h3 style={{ fontSize: '20px', fontWeight: '700', color: '#fff', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <h3 style={{ fontSize: '20px', fontWeight: '700', color: 'var(--text-white)', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Activity size={20} style={{ color: 'var(--primary-accent)' }} /> What We Did
               </h3>
               <p style={{ fontSize: '15.5px', color: 'var(--text-gray-400)', lineHeight: '1.7', margin: 0 }}>
@@ -83,10 +83,10 @@ export default function DynamicCaseStudy() {
           {/* Results Card */}
           <ScrollReveal delay={150}>
             <div className="gt-card gt-card-glass" style={{ marginBottom: '48px', borderLeft: '4px solid #27c93f' }}>
-              <h3 style={{ fontSize: '20px', fontWeight: '700', color: '#fff', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <h3 style={{ fontSize: '20px', fontWeight: '700', color: 'var(--text-white)', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <CheckCircle size={20} style={{ color: '#27c93f' }} /> The Result
               </h3>
-              <p style={{ fontSize: '16px', color: '#fff', fontWeight: '600', marginBottom: '16px', lineHeight: '1.5' }}>
+              <p style={{ fontSize: '16px', color: 'var(--text-white)', fontWeight: '600', marginBottom: '16px', lineHeight: '1.5' }}>
                 {project.result}
               </p>
             </div>
@@ -97,7 +97,7 @@ export default function DynamicCaseStudy() {
             <ScrollReveal delay={200}>
               <div style={{ padding: '40px', background: 'rgba(255,255,255,0.01)', border: '1px solid var(--border-color)', borderRadius: '24px', textAlign: 'center', marginBottom: '56px', position: 'relative' }}>
                 <Quote size={40} style={{ color: 'var(--primary-accent)', opacity: 0.15, position: 'absolute', top: '16px', left: '24px' }} />
-                <p style={{ fontSize: '18px', color: '#fff', fontStyle: 'italic', lineHeight: '1.7', margin: '0 0 16px 0', position: 'relative', zIndex: 1 }}>
+                <p style={{ fontSize: '18px', color: 'var(--text-white)', fontStyle: 'italic', lineHeight: '1.7', margin: '0 0 16px 0', position: 'relative', zIndex: 1 }}>
                   "{project.quote}"
                 </p>
                 <span style={{ fontSize: '14px', color: 'var(--text-gray-400)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em' }}>- Client Testimonial</span>

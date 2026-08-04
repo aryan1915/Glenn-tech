@@ -51,7 +51,7 @@ export default function ServicePage() {
         <div className="gt-container" style={{ maxWidth: '900px' }}>
           <div className="gt-grid-2" style={{ marginBottom: '48px' }}>
             <ScrollReveal>
-              <div className="gt-card gt-card-glass" style={{ height: '100%' }}>
+              <div className="gt-card gt-card-glass">
                 <h3 style={{ fontSize: '20px', fontWeight: '700', color: 'var(--text-white)', marginBottom: '16px' }}>Key Capabilities</h3>
                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px' }}>
                   <li style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '14.5px', color: 'var(--text-gray-400)' }}>
@@ -68,7 +68,7 @@ export default function ServicePage() {
             </ScrollReveal>
 
             <ScrollReveal delay={100}>
-              <div className="gt-card gt-card-glass" style={{ height: '100%' }}>
+              <div className="gt-card gt-card-glass">
                 <h3 style={{ fontSize: '20px', fontWeight: '700', color: 'var(--text-white)', marginBottom: '16px' }}>Business Value</h3>
                 <p style={{ fontSize: '14.5px', color: 'var(--text-gray-400)', lineHeight: '1.7', margin: 0 }}>
                   Accelerate time-to-market, mitigate technological risks, and optimize your engineering operations. Our teams integrate directly with your workflows to deliver compound value.

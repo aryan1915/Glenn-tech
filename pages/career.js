@@ -97,7 +97,7 @@ export default function Careers() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', marginBottom: '40px' }}>
                 <div style={{ padding: '24px', background: 'rgba(255,255,255,0.01)', border: '1px solid var(--border-color)', borderRadius: '12px' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-                    <h4 style={{ fontSize: '18px', fontWeight: 700, color: '#fff', margin: 0 }}>Senior Accessibility Engineer</h4>
+                    <h4 style={{ fontSize: '18px', fontWeight: 700, color: 'var(--text-white)', margin: 0 }}>Senior Accessibility Engineer</h4>
                     <span style={{ fontSize: '12px', color: 'var(--primary-accent)', background: 'rgba(0,229,255,0.08)', padding: '4px 10px', borderRadius: '9999px' }}>Full-Time</span>
                   </div>
                   <p style={{ fontSize: '14px', color: 'var(--text-gray-400)', margin: 0 }}>Specialist in WCAG testing, ADA compliance structures, and Section 508 automation scripts.</p>
@@ -105,7 +105,7 @@ export default function Careers() {
 
                 <div style={{ padding: '24px', background: 'rgba(255,255,255,0.01)', border: '1px solid var(--border-color)', borderRadius: '12px' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-                    <h4 style={{ fontSize: '18px', fontWeight: 700, color: '#fff', margin: 0 }}>React / Next.js Developer</h4>
+                    <h4 style={{ fontSize: '18px', fontWeight: 700, color: 'var(--text-white)', margin: 0 }}>React / Next.js Developer</h4>
                     <span style={{ fontSize: '12px', color: 'var(--primary-accent)', background: 'rgba(0,229,255,0.08)', padding: '4px 10px', borderRadius: '9999px' }}>Full-Time</span>
                   </div>
                   <p style={{ fontSize: '14px', color: 'var(--text-gray-400)', margin: 0 }}>Engineering fast, semantic page shells, custom CSS components, and HIPAA form bindings.</p>
@@ -113,7 +113,7 @@ export default function Careers() {
               </div>
 
               <div style={{ background: 'rgba(0,229,255,0.02)', border: '1px solid rgba(0,229,255,0.1)', padding: '24px', borderRadius: '12px' }}>
-                <h4 style={{ fontSize: '17px', fontWeight: 700, color: '#fff', margin: '0 0 8px 0' }}>Don't see your role?</h4>
+                <h4 style={{ fontSize: '17px', fontWeight: 700, color: 'var(--text-white)', margin: '0 0 8px 0' }}>Don't see your role?</h4>
                 <p style={{ fontSize: '14.5px', color: 'var(--text-gray-400)', margin: 0 }}>
                   Tell us what you do and why GlennTech - we're always glad to meet people who do great work.
                 </p>
@@ -123,14 +123,14 @@ export default function Careers() {
             {/* General Interest Application Form */}
             <ScrollReveal delay={150}>
               <div className="gt-card gt-card-glass">
-                <h3 style={{ fontSize: '24px', fontWeight: 700, margin: '0 0 24px 0', color: '#fff' }}>Send us your details</h3>
+                <h3 style={{ fontSize: '24px', fontWeight: 700, margin: '0 0 24px 0', color: 'var(--text-white)' }}>Send us your details</h3>
                 
                 {submitted ? (
                   <div style={{ textAlign: 'center', padding: '40px 0' }}>
                     <div style={{ display: 'inline-flex', alignItems: 'center', justifyCenter: 'center', width: '56px', height: '56px', borderRadius: '50%', background: 'rgba(0,229,255,0.08)', color: 'var(--primary-accent)', marginBottom: '20px', justifyContent: 'center' }}>
                       <CheckCircle size={28} />
                     </div>
-                    <h4 style={{ fontSize: '20px', color: '#fff', margin: '0 0 8px 0' }}>Application Received</h4>
+                    <h4 style={{ fontSize: '20px', color: 'var(--text-white)', margin: '0 0 8px 0' }}>Application Received</h4>
                     <p style={{ fontSize: '14.5px', color: 'var(--text-gray-400)', margin: 0 }}>Thank you for expressing interest in GlennTech. We will review your profile shortly.</p>
                   </div>
                 ) : (
