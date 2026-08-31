@@ -26,7 +26,7 @@ export default function ContactUs() {
       <section className="gt-section" style={{ padding: '120px 0 80px 0' }}>
         <div className="gt-container">
           <div className="gt-grid-2" style={{ alignItems: 'flex-start' }}>
-            
+
             {/* Info Column */}
             <ScrollReveal>
               <span style={{ fontSize: '13px', color: 'var(--primary-accent)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Get In Touch</span>
@@ -44,7 +44,7 @@ export default function ContactUs() {
                   </div>
                   <div>
                     <h4 style={{ margin: '0 0 4px 0', fontSize: '14px', textTransform: 'uppercase', color: 'var(--text-gray-500)', letterSpacing: '0.05em' }}>Email Us</h4>
-                    <a href="mailto:info@glenntech.com" style={{ fontSize: '16.5px', color: 'var(--primary-accent)', textDecoration: 'none', fontWeight: '600' }}>info@glenntech.com</a>
+                    <a href="mailto:info@glenntech.llc" style={{ fontSize: '16.5px', color: 'var(--primary-accent)', textDecoration: 'none', fontWeight: '600' }}>info@glenntech.llc</a>
                   </div>
                 </div>
 
@@ -54,7 +54,7 @@ export default function ContactUs() {
                   </div>
                   <div>
                     <h4 style={{ margin: '0 0 4px 0', fontSize: '14px', textTransform: 'uppercase', color: 'var(--text-gray-500)', letterSpacing: '0.05em' }}>Call Advisory</h4>
-                    <span style={{ fontSize: '16.5px', color: 'var(--text-white)', fontWeight: '600' }}>+1 (800) 555-0199</span>
+                    <span style={{ fontSize: '16.5px', color: 'var(--text-white)', fontWeight: '600' }}>+1 (732) 910-7319</span>
                   </div>
                 </div>
 
@@ -64,7 +64,7 @@ export default function ContactUs() {
                   </div>
                   <div>
                     <h4 style={{ margin: '0 0 4px 0', fontSize: '14px', textTransform: 'uppercase', color: 'var(--text-gray-500)', letterSpacing: '0.05em' }}>Headquarters</h4>
-                    <span style={{ fontSize: '16.5px', color: 'var(--text-white)', fontWeight: '600' }}>New Jersey, USA</span>
+                    <span style={{ fontSize: '16.5px', color: 'var(--text-white)', fontWeight: '600' }}>870 Green St, Iselin, New Jersey 08830, US</span>
                   </div>
                 </div>
               </div>
@@ -82,7 +82,7 @@ export default function ContactUs() {
             <ScrollReveal delay={150}>
               <div className="gt-card gt-card-glass">
                 <h3 style={{ fontSize: '24px', fontWeight: 700, margin: '0 0 24px 0', color: 'var(--text-white)' }}>Start your project</h3>
-                
+
                 {submitted ? (
                   <div style={{ textAlign: 'center', padding: '40px 0' }}>
                     <div style={{ display: 'inline-flex', alignItems: 'center', justifyCenter: 'center', width: '56px', height: '56px', borderRadius: '50%', background: 'rgba(0,229,255,0.08)', color: 'var(--primary-accent)', marginBottom: '20px', justifyContent: 'center' }}>
@@ -116,7 +116,7 @@ export default function ContactUs() {
                         I confirm that this message does not submit HIPAA Protected Health Information (PHI).
                       </label>
                     </div>
-                    
+
                     <button type="submit" className="gt-btn gt-btn-primary" style={{ width: '100%', marginTop: '24px' }}>
                       Send Message <Send size={14} />
                     </button>
